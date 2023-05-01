@@ -1,3 +1,8 @@
+# the general logic of this code is
+# to find the quantity of stars and meteors we look through all the pixel of the image and look for white and red pixels and count them
+# to find how many meteors will fall on the ocean i look through all the image columns, if there is a meteor and a ocean pixel in the same column this meteor will fall on the ocean
+# and for the hidden phrase i tried to find it using morse code since the elements we are workin are pixels
+
 import cv2
 import numpy
 
